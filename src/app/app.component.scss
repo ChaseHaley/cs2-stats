@@ -1,0 +1,24 @@
+.layout-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "navbar navbar"
+        "navpanel page-container";
+
+    height: 100%;
+}
+
+.navbar-container {
+    grid-area: navbar;
+}
+
+.navpanel-container {
+    grid-area: navpanel;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    grid-area: page-container;
+}
