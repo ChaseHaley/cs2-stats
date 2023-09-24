@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NavpanelComponent } from './navpanel/navpanel.component';
+import { NavpanelItemComponent } from './navpanel-item/navpanel-item.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NavpanelComponent } from './navpanel/navpanel.component';
     HomeComponent,
     NavbarComponent,
     NavpanelComponent,
+    NavpanelItemComponent,
   ],
   imports: [
     BrowserModule,

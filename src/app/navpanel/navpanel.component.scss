@@ -1,4 +1,10 @@
-div {
-    background-color: var(--primary);
+.container {
+    background-color: var(--content-background-color);
     height: 100%;
+    width: 204px;
+}
+
+.divider {
+    border: 10px;
+    border-color: #2f2b38;
 }

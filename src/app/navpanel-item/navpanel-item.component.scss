@@ -1,0 +1,17 @@
+:root {
+    --navbar-item-bg-color: orange;
+}
+
+.container {
+    padding: .5rem;
+
+    display: flex;
+    align-items: center;
+
+    margin: 1rem;
+    padding: .5rem;
+
+    &:hover {
+        background-color: pink;
+    }
+}
